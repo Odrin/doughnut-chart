@@ -1,0 +1,27 @@
+{
+  "name": "doughnut-chart",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Egor Komarov",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development tsdx watch",
+    "build": "NODE_ENV=production tsdx build --format=cjs,esm,umd",
+    "example": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^6.2.1",
+    "tsdx": "^0.11.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "@types/color-string": "^1.5.0",
+    "color-string": "^1.5.3"
+  }
+}
