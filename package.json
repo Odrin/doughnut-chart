@@ -15,8 +15,8 @@
     "ts-loader": "^6.2.1",
     "tsdx": "^0.11.0",
     "tslib": "^1.10.0",
-    "typescript": "^3.7.2",
-    "webpack": "^4.41.2",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.3",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
   },
